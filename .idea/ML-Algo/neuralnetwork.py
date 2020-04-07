@@ -19,22 +19,26 @@ def sigmoid_derivative(p):
 class NeuralNetwork:
     def __init__(self, x,y):
         self.input = x
-        self.weights1= np.random.rand(self.input.shape[1],4) # considering we have 4 nodes in the hidden layer
-        self.weights2 = np.random.rand(4,1)
+        self.weights1= np.random.rand(self.input.shape[1],3) # considering we have 4 nodes in the hidden layer
+        self.weights2 = np.random.rand(3,4)
+        self.weights3 = np.random.rand(4,4)
         self.y = y
         self.output = np. zeros(y.shape)
 
     def feedforward(self):
         self.layer1 = sigmoid(np.dot(self.input, self.weights1))
         self.layer2 = sigmoid(np.dot(self.layer1, self.weights2))
-        return self.layer2
+        self.layer3 = sigmoid(np.dot(self.layer2, self.weights3))
+        return self.layer3
 
     def backprop(self):
-        d_weights2 = np.dot(self.layer1.T, 2*(self.y -self.output)*sigmoid_derivative(self.output))
+        d_weights3 = np.dot(self.layer2.T, 3*(self.y -self.output)*sigmoid_derivative(self.output))
+        d_weights2 = np.dot(self.layer1.T, 3*(self.y -self.output)*sigmoid_derivative(self.output))
         d_weights1 = np.dot(self.input.T, np.dot(2*(self.y -self.output)*sigmoid_derivative(self.output), self.weights2.T)*sigmoid_derivative(self.layer1))
 
         self.weights1 += d_weights1
         self.weights2 += d_weights2
+        self.weights3 += d_weights3
 
     def train(self, X, y):
         self.output = self.feedforward()
@@ -42,7 +46,7 @@ class NeuralNetwork:
 
 
 NN = NeuralNetwork(X,y)
-for i in range(200): # trains the NN 1,000 times
+for i in range(1500): # trains the NN 1,000 times
     if i % 100 ==0:
         print ("for iteration # " + str(i) + "\n")
         print ("Input : \n" + str(X))
