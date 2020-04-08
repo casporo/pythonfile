@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/multipleregression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/polynomialregression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/traintest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/joblib-0.14.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numpy-1.18.2-cp38-cp38-win32.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pandas-1.0.3-cp38-cp38-win32.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python_dateutil-2.8.1-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytz-2019.3-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scikit_learn-0.22.2.post1-cp38-cp38-win32.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scipy-1.4.1-cp38-cp38-win32.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/six-1.14.0-py2.py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sklearn-0.0.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/neuralnetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/neuralnetwork.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -62,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\J Projects\python-trial\.idea\ML-Algo\data_files" />
       <recent name="D:\J Projects\python-trial\.idea\python files" />
     </key>
   </component>
@@ -266,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586248856995</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added more ML algorithms and python libraries. &#10;&#10;Regression Algorithms included">
+      <created>1586325035261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586325035261</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -274,7 +270,8 @@
     <MESSAGE value="Python File" />
     <MESSAGE value="Python Test Files" />
     <MESSAGE value="Added more weights, tinkered around with feedforward and backpropagation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added more weights, tinkered around with feedforward and backpropagation" />
+    <MESSAGE value="Added more ML algorithms and python libraries. &#10;&#10;Regression Algorithms included" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more ML algorithms and python libraries. &#10;&#10;Regression Algorithms included" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585893427579">
@@ -285,10 +282,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586145229014" />
-    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586248855984">
+    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586325034155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586248855984" />
+    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586325034155" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1586324956055">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -333,10 +330,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="370" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586237277644" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586248863025">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586325268294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586248863025" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586325268294" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586315201731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
