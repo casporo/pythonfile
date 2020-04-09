@@ -2,8 +2,8 @@
 import numpy as np
 
 # Each row is a training example, each column is a feature  [X1, X2, X3]
-X=np.array(([0,0,1],[0,1,1],[1,0,1],[1,1,1]), dtype=str)
-y=np.array(([0],[1],[1],[0]), dtype=str)
+X=np.array(([0,0,1],[0,1,1],[1,0,1],[1,1,1]), dtype=float)
+y=np.array(([0],[1],[1],[0]), dtype=float)
 
 #X=np.array(([1,3,5,2,4,6]), dtype=int)
 #y=np.array(([1]), dtype=int)
