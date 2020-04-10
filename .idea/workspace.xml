@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/RF_Test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/data_files/shows2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/dtree2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586429190567</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added a new decision tree file (sample on how to find accuracy, confusion matrix).">
+      <created>1586510666083</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510666083</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,7 +307,8 @@
     <MESSAGE value="Added more ML algorithms and python libraries. &#10;&#10;Regression Algorithms included" />
     <MESSAGE value="Added Decision Tree algorithm + sample data. &#10;Modified slightly Neural Network algo." />
     <MESSAGE value="Updated decision tree and neural network algo + other configs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated decision tree and neural network algo + other configs" />
+    <MESSAGE value="Added a new decision tree file (sample on how to find accuracy, confusion matrix)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a new decision tree file (sample on how to find accuracy, confusion matrix)." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585893427579">
@@ -324,37 +327,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="123" key="#traintest/0.0.1920.1040@0.0.1920.1040" timestamp="1586336359701" />
-    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586429189279">
+    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586510665226">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586429189279" />
+    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510665226" />
     <state x="150" y="267" key="FileChooserDialogImpl" timestamp="1586335982336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586335982336" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1586510584832">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1586510752143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586510584832" />
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1586510584832">
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1586510752143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586510584832" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1586510584832">
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1586510752143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586510584832" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1586510584832">
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1586510752143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586510584832" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586338368217">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -380,10 +383,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="370" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586337395880" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586430493144">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1586510678945">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586430493144" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510678945" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586510258997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

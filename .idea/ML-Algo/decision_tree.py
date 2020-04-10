@@ -27,10 +27,10 @@ dtree = DecisionTreeClassifier()
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction
-y_pred = dtree.predict(X)
+y_pred = dtree.predict(X_test)
 print(y_pred)
 print(y_test)
-"""
+
 #To obtain the accuracy score, confusion matrix and classification report
 result = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:")
@@ -40,11 +40,11 @@ print("Classification Report:",)
 print (result1)
 result2 = accuracy_score(y_test,y_pred)
 print("Accuracy:",result2)
-"""
 
+"""
 #Predicting based on data given
 print(dtree.predict([[20, 50, 7, 1]]))
 print(dtree.predict([[40, 10, 3, 1]]))
 print("[1] means 'GO'")
 print("[0] means 'NO'")
-
+"""
