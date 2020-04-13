@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/linear_regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/RF.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/RF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/multipleregression.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/multipleregression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/polynomialregression.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/polynomialregression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,28 +59,7 @@
       <recent name="D:\J Projects\python-trial\.idea\python files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.decision_tree">
-    <configuration name="RF_Test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-trial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/ML-Algo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/RF_Test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.linear_regression">
     <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +102,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="linear_regression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-trial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/ML-Algo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/linear_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="multipleregression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="neuralnetwork" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="polynomialregression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,7 +156,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/neuralnetwork.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/polynomialregression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.decision_tree" />
-        <item itemvalue="Python.dtree2" />
-        <item itemvalue="Python.RF_Test" />
+        <item itemvalue="Python.linear_regression" />
+        <item itemvalue="Python.polynomialregression" />
         <item itemvalue="Python.multipleregression" />
-        <item itemvalue="Python.neuralnetwork" />
+        <item itemvalue="Python.dtree2" />
+        <item itemvalue="Python.decision_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -296,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586510666083</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Fixed decision tree classification, accuracy score and confusion matrix.">
+      <created>1586510816949</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586510816949</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -308,7 +320,8 @@
     <MESSAGE value="Added Decision Tree algorithm + sample data. &#10;Modified slightly Neural Network algo." />
     <MESSAGE value="Updated decision tree and neural network algo + other configs" />
     <MESSAGE value="Added a new decision tree file (sample on how to find accuracy, confusion matrix)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new decision tree file (sample on how to find accuracy, confusion matrix)." />
+    <MESSAGE value="Fixed decision tree classification, accuracy score and confusion matrix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed decision tree classification, accuracy score and confusion matrix." />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585893427579">
@@ -327,37 +340,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="123" key="#traintest/0.0.1920.1040@0.0.1920.1040" timestamp="1586336359701" />
-    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586510665226">
+    <state x="577" y="143" key="CommitChangelistDialog2" timestamp="1586510816292">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510665226" />
+    <state x="577" y="143" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510816292" />
     <state x="150" y="267" key="FileChooserDialogImpl" timestamp="1586335982336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586335982336" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1586510752143">
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1586756243860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586756243860" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1586510752143">
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1586756243860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586756243860" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1586510752143">
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1586756243859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586756243859" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1586510752143">
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1586756243860">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586510752143" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586756243860" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586338368217">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -387,11 +400,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586510678945" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586510258997">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1586750932268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586490108613" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586510258997" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586750932268" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585900233456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
