@@ -19,6 +19,9 @@ features = ['Age', 'Experience', 'Rank', 'Nationality']
 X = df[features]
 y = df.Go
 
+#X = df.iloc[:, :-1].values
+#y = df.iloc[:, -1].values
+
 #Split the dataset into 70% training data and 20% of testing data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state= 1)
 
