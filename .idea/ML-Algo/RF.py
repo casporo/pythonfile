@@ -12,7 +12,7 @@ headernames = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Cl
 
 dataset = pd.read_csv(path, names = headernames)
 dataset.head()
-#print(dataset)
+print(dataset)
 
 """"
 # Single selections using iloc and DataFrame
@@ -35,9 +35,9 @@ data.iloc[0:5, 5:8] # first 5 rows and 5th, 6th, 7th columns of data frame (coun
 
 #Data Preprocessing
 X = dataset.iloc[:, :-1].values
-y = dataset.iloc[:, 4].values
-#print(X)
-#print(y)
+y = dataset.iloc[:, -1].values
+print(X)
+print(y)
 
 #divide the data into train and test split. The following code will split the dataset into 70% training data and 30% of testing data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.30)
