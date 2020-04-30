@@ -1,0 +1,9 @@
+knowledge_usefulness,knowledge_reliability,knowledge_accuracy,knowledge_rating,knowledge_quality_rating
+0,0,0,0,0
+0,0,0,1,0
+0,0,1,0,0
+0,0,1,1,0
+0,1,0,0,1
+0,1,0,1,0
+0,1,1,0,0
+,,,,
