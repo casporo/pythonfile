@@ -22,7 +22,7 @@ y = dataset.iloc[:, -1].values
 #print(X)
 #print(y)
 
-#divide the data into train and test split. The following code will split the dataset into 70% training data and 30% of testing data
+#divide the data into train and test split. The following code will split the dataset into 80% training data and 20% of testing data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
 
 #train the model with the help of RandomForestClassifier class of sklearn

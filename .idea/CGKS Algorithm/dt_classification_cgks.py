@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 #df = pandas.read_csv(r"data_files\MOCK_DATA_3.csv")
 #df = pandas.read_csv(r"data_files\MOCK_DATA_4.csv")
 #df = pandas.read_csv(r"data_files\MOCK_DATA_5.csv")
-df = pandas.read_csv(r"data_files\MOCK_DATA_6.csv")
+#df = pandas.read_csv(r"data_files\MOCK_DATA_6.csv")
 print(df)
 
 #To split the dataset into features and target variable
