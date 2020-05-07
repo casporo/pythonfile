@@ -5,13 +5,9 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
 #Import the dataset
-#df = pandas.read_csv(r"data_files\MOCK_DATA_0.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_1.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_2.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_3.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_4.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_5.csv")
-#df = pandas.read_csv(r"data_files\MOCK_DATA_6.csv")
+#df = pandas.read_csv(r"data_files\MOCK_DATA_ITERATION_1.csv")
+#df = pandas.read_csv(r"data_files\MOCK_DATA_ITERATION_2.csv")
+
 print(df)
 
 #To split the dataset into features and target variable

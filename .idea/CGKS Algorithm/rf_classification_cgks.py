@@ -6,13 +6,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_0.csv")
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_1.csv")
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_2.csv")
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_3.csv")
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_4.csv")
-#dataset = pd.read_csv(r"data_files\MOCK_DATA_5.csv")
-dataset = pd.read_csv(r"data_files\MOCK_DATA_6.csv")
+#dataset = pd.read_csv(r"data_files\MOCK_DATA_ITERATION_1.csv")
+#dataset = pd.read_csv(r"data_files\MOCK_DATA_ITERATION_2.csv")
 dataset.head()
 print(dataset)
 
