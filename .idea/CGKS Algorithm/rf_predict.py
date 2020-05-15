@@ -8,8 +8,13 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_A.csv")
-dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
-testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
+dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
+testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
 dataset.head()
 print(dataset)
 
@@ -25,11 +30,18 @@ classifier.fit(X_train, y_train)
 
 ##To make a prediction
 y_pred = classifier.predict(X_test)
-np.set_printoptions(threshold=sys.maxsize)
+#np.set_printoptions(threshold=sys.maxsize)
+#print(y_pred)
+y_pred = y_pred.tolist()
 print(y_pred)
 
+"""
 print("[2] means 'High'")
 print("[1] means 'Low'")
+"""
+print("[2] means 'High'")
+print("[1] means 'Medium'")
+print("[0] means 'Low'")
 
 """
 #To obtain the accuracy score, confusion matrix and classification report

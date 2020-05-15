@@ -9,8 +9,13 @@ from sklearn.model_selection import train_test_split
 
 #Import the dataset
 #df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_A.csv")
-df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
+df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
 #dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
+dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
 
 #To split the dataset into features and target variable
 X_train = df.iloc[:, :-1].values
@@ -24,11 +29,19 @@ dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction
 y_pred = dtree.predict(X_test)
+#np.set_printoptions(threshold=sys.maxsize)
+#print(y_pred)
+y_pred = y_pred.tolist()
 print(y_pred)
-np.set_printoptions(threshold=sys.maxsize)
 
+
+"""
 print("[2] means 'High'")
 print("[1] means 'Low'")
+"""
+print("[2] means 'High'")
+print("[1] means 'Medium'")
+print("[0] means 'Low'")
 
 """
 #To obtain the accuracy score, confusion matrix and classification report
