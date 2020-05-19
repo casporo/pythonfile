@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 #df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
 #df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
-df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
 print(df)

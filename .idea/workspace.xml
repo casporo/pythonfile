@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="Rearranged test data to be used&#10;                                                                            Generated new set of test data for testing and revamped certain parts of the code">
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/count_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_C.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_D.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_C.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_D.csv" afterDir="false" />
+    <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/RANDOM_DATA_DATASET_B.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/RANDOM_DATA_DATASET_C.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/RANDOM_DATA_DATASET_D.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/TRAINING_DATA_DATASET_A.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/TRAINING_DATA_DATASET_B.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/TRAINING_DATA_DATASET_C.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/archives/Dataset B - D/TRAINING_DATA_DATASET_D.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/count_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/count_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_B.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_B.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_C.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/RANDOM_DATA_DATASET_D.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_A.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_A.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_B.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_B.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_C.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_C.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/TRAINING_DATA_DATASET_D.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classification_cgks.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classification_cgks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_predict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classification_cgks.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classification_cgks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_predict.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -363,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589183260708</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Generated more datasets and slight modification of cgks algorithms">
+      <created>1589521214132</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1589521214132</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -383,7 +397,9 @@
     <MESSAGE value="Rearranged test data to be used" />
     <MESSAGE value="Rearranged test data to be used&#10;Generated new set of test data for testing as previous iteration is invalid." />
     <MESSAGE value="Rearranged test data to be used&#10;                                                                            Generated new set of test data for testing and revamped certain parts of the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranged test data to be used&#10;                                                                            Generated new set of test data for testing and revamped certain parts of the code" />
+    <MESSAGE value="Generated more datasets and slight modification of cgks algorithms" />
+    <MESSAGE value="Generated more datasets and slight modification of cgks algorithms&#10;&#10;Repeated new set of experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Generated more datasets and slight modification of cgks algorithms&#10;&#10;Repeated new set of experiment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" width="1092" height="717" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585893427579">
@@ -402,37 +418,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="123" key="#traintest/0.0.1920.1040@0.0.1920.1040" timestamp="1586336359701" />
-    <state x="119" y="125" key="CommitChangelistDialog2" timestamp="1589183277351">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1589857894155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="119" y="125" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589183277351" />
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1589857894155" />
     <state x="150" y="267" key="FileChooserDialogImpl" timestamp="1586335982336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586335982336" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1589520758588">
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1589857811252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589520758588" />
+    <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589857811252" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1589520758588">
+    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1589857811252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589520758588" />
+    <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589857811252" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1589520758588">
+    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1589857811252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589520758588" />
+    <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589857811252" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1589520758588">
+    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1589857811252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589520758588" />
+    <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589857811252" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1586338368217">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -458,15 +474,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="370" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586337395880" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589521183675">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1589521222963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589521183675" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589513539591">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1589521222963" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1589852919099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586490108613" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589513539591" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589852919099" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585900233456">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -479,16 +495,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589159056421" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/.idea/CGKS Algorithm/count_data.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

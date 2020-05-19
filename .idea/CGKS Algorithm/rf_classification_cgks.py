@@ -11,9 +11,9 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
 #dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
-dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
 #dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
-#dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
+dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
 dataset.head()
 print(dataset)
 
