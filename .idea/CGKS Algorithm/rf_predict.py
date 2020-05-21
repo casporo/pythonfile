@@ -8,13 +8,22 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_A.csv")
-#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
-#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
-dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
 #testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
 #testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
 #testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
-testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_E.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_E.csv")
+dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_F.csv")
+testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_F.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_G.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_G.csv")
+#dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_H.csv")
+#testset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_H.csv")
+
 dataset.head()
 print(dataset)
 

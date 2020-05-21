@@ -9,13 +9,21 @@ from sklearn.model_selection import train_test_split
 
 #Import the dataset
 #df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_A.csv")
-#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
-#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
-df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
 #dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_A.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
 #dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_B.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_C.csv")
 #dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_C.csv")
-dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_D.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_D.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_E.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_E.csv")
+df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_F.csv")
+dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_F.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_G.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_G.csv")
+#df = pandas.read_csv(r"data_files\TRAINING_DATA_DATASET_H.csv")
+#dt = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_H.csv")
 
 #To split the dataset into features and target variable
 X_train = df.iloc[:, :-1].values
