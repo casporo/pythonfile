@@ -22,6 +22,7 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 #dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_F.csv")
 #dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_G.csv")
 #dataset = pd.read_csv(r"data_files\RANDOM_DATA_DATASET_H.csv")
+dataset = pd.read_csv(r"data_files\FINAL_DATASET.csv")
 dataset.head()
 print(dataset)
 

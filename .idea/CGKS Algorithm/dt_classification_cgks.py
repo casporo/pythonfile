@@ -24,6 +24,7 @@ from sklearn.model_selection import train_test_split
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_F.csv")
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_G.csv")
 #df = pandas.read_csv(r"data_files\RANDOM_DATA_DATASET_H.csv")
+df = pandas.read_csv(r"data_files\FINAL_DATASET.csv")
 print(df)
 
 #To split the dataset into features and target variable
