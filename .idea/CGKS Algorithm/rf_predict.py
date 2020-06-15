@@ -44,22 +44,15 @@ y_pred = classifier.predict(X_test)
 y_pred = y_pred.tolist()
 print(y_pred)
 
-"""
-print("[2] means 'High'")
-print("[1] means 'Low'")
-"""
-print("[2] means 'High'")
-print("[1] means 'Medium'")
-print("[0] means 'Low'")
+for num in y_pred:
+    if num == 0:
+        count_0 += 1
+    elif num == 1:
+        count_1 += 1
+    elif num == 2:
+        count_2 += 1
 
-"""
-#To obtain the accuracy score, confusion matrix and classification report
-result = confusion_matrix(y_train, y_pred)
-print("Confusion Matrix:")
-print(result)
-result1 = classification_report(y_train, y_pred)
-print("Classification Report:",)
-print (result1)
-result2 = accuracy_score(y_train,y_pred)
-print("Accuracy:",result2)
-"""
+print("----Algorithm Classification Results----")
+print("Low Quality:",count_0)
+print("Medium Quality:",count_1)
+print("High Quality:",count_2)
