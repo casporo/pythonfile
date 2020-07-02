@@ -30,6 +30,10 @@ y_pred = classifier.predict(X_test)
 y_pred = y_pred.tolist()
 print(y_pred)
 
+count_0 = 0
+count_1 = 0
+count_2 = 0
+
 for num in y_pred:
     if num == 0:
         count_0 += 1

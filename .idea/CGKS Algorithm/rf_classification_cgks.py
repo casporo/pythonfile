@@ -1,10 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import pydotplus
+import matplotlib.pyplot as plt
+import matplotlib.image as pltimg
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn.tree import export_graphviz
+from scipy.signal import savgol_filter
 
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_A.csv")
 #dataset = pd.read_csv(r"data_files\TRAINING_DATA_DATASET_B.csv")
@@ -29,6 +34,7 @@ print(dataset)
 #Data Preprocessing
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, -1].values
+features = ['Knowledge_Context','Knowledge_Acceptance','Knowledge_Accuracy']
 #print(X)
 #print(y)
 
@@ -38,7 +44,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
 #train the model with the help of RandomForestClassifier class of sklearn
 classifier = RandomForestClassifier(n_estimators = 100)
 classifier.fit(X_train, y_train)
-
+classifier_limited = classifier.estimators_[99]
 ##To make a prediction
 y_pred = classifier.predict(X_test)
 
@@ -51,3 +57,13 @@ print("Classification Report:",)
 print (result1)
 result2 = accuracy_score(y_test,y_pred)
 print("Accuracy:",result2)
+
+export_graphviz(classifier_limited,out_file='tree.dot',
+                feature_names = features,
+                class_names = ['Low Quality','Medium Quality', 'High Quality'],
+                rounded = True, proportion = False,
+                precision = 2, filled = True)
+from subprocess import call
+call(['dot', '-Tpng', 'tree.dot', '-o', 'images\oforest.png', '-Gdpi=600'])
+from IPython.display import Image
+Image(filename = 'images\oforest.png')

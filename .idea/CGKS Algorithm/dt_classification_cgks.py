@@ -1,6 +1,10 @@
 import pandas
 import numpy as np
 import sys
+import graphviz
+import pydotplus
+import matplotlib.pyplot as plt
+import matplotlib.image as pltimg
 
 from sklearn import tree
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
@@ -30,6 +34,8 @@ print(df)
 #To split the dataset into features and target variable
 X = df.iloc[:, :-1].values
 y = df.iloc[:, -1].values
+features = ['Knowledge_Context','Knowledge_Acceptance','Knowledge_Accuracy']
+class_label = ['Knowledge_Quality']
 
 #Split the dataset into 80% training data and 20% of testing data
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 1)
@@ -53,4 +59,21 @@ print("Classification Report:",)
 print (result1)
 result2 = accuracy_score(y_test,y_pred)
 print("Accuracy:",result2)
+"""
+dot_data = tree.export_graphviz(dtree, out_file=None,feature_names=features,class_names=['Low Quality','Medium Quality', 'High Quality'],filled=True, rounded=True,
+                                special_characters=True)
+img=pltimg.imread('mydecisiontree.png')
+imgplot = plt.imshow(img)
+plt.show()
+"""
+from sklearn.tree import export_graphviz
+from sklearn.externals.six import StringIO
+from IPython.display import Image
+import pydotplus
+dot_data = StringIO()
+export_graphviz(dtree, out_file=dot_data, filled=True, rounded=True,
+                special_characters=True,feature_names = features,class_names=['Low Quality','Medium Quality', 'High Quality'])
 
+graph = pydotplus.graph_from_dot_data(dot_data.getvalue())
+graph.write_png('images\decisiontree.png')
+Image(graph.create_png())
