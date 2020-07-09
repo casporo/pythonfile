@@ -1,0 +1,17 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Knowledge_Acceptance <= 20.5\ngini = 0.67\nsamples = 1522\nvalue = [839, 774, 787]\nclass = Low Quality", fillcolor="#fefbf9"] ;
+1 [label="Knowledge_Acceptance <= 10.5\ngini = 0.5\nsamples = 1027\nvalue = [839, 774, 0]\nclass = Low Quality", fillcolor="#fdf5f0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Knowledge_Context <= 0.5\ngini = 0.44\nsamples = 792\nvalue = [839, 415, 0]\nclass = Low Quality", fillcolor="#f2bf9b"] ;
+1 -> 2 ;
+3 [label="gini = 0.0\nsamples = 516\nvalue = [839, 0, 0]\nclass = Low Quality", fillcolor="#e58139"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 276\nvalue = [0, 415, 0]\nclass = Medium Quality", fillcolor="#39e581"] ;
+2 -> 4 ;
+5 [label="gini = 0.0\nsamples = 235\nvalue = [0, 359, 0]\nclass = Medium Quality", fillcolor="#39e581"] ;
+1 -> 5 ;
+6 [label="gini = 0.0\nsamples = 495\nvalue = [0, 0, 787]\nclass = High Quality", fillcolor="#8139e5"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}

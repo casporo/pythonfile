@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as pltimg
 
 from sklearn import tree
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn import metrics
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 
@@ -41,7 +41,7 @@ class_label = ['Knowledge_Quality']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 1)
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
-dtree = DecisionTreeClassifier()
+dtree = DecisionTreeClassifier(max_depth=None,min_samples_split=2, random_state=0)
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction
@@ -51,14 +51,18 @@ y_pred = dtree.predict(X_test)
 #print(y_test)
 
 #To obtain the accuracy score, confusion matrix and classification report
-result = confusion_matrix(y_test, y_pred)
-print("Confusion Matrix:")
-print(result)
-result1 = classification_report(y_test, y_pred)
-print("Classification Report:",)
-print (result1)
-result2 = accuracy_score(y_test,y_pred)
-print("Accuracy:",result2)
+
+print("Confusion Matrix:", "\n",metrics.confusion_matrix(y_test, y_pred))
+
+# Model Accuracy: classification report
+print("Classification Report:",metrics.classification_report(y_test, y_pred))
+
+# Model Accuracy: how often is the classifier correct?
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
+
+from sklearn.tree import export_text
+r = export_text(dtree, feature_names=features)
+print(r)
 """
 dot_data = tree.export_graphviz(dtree, out_file=None,feature_names=features,class_names=['Low Quality','Medium Quality', 'High Quality'],filled=True, rounded=True,
                                 special_characters=True)

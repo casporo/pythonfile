@@ -7,7 +7,7 @@ import matplotlib.image as pltimg
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from sklearn import metrics
 from sklearn.tree import export_graphviz
 from scipy.signal import savgol_filter
 
@@ -42,21 +42,20 @@ features = ['Knowledge_Context','Knowledge_Acceptance','Knowledge_Accuracy']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.20)
 
 #train the model with the help of RandomForestClassifier class of sklearn
-classifier = RandomForestClassifier(n_estimators = 100)
+classifier = RandomForestClassifier(n_estimators = 100, max_depth=None,min_samples_split=2, random_state=0)
 classifier.fit(X_train, y_train)
 classifier_limited = classifier.estimators_[99]
 ##To make a prediction
 y_pred = classifier.predict(X_test)
 
 #To obtain the accuracy score, confusion matrix and classification report
-result = confusion_matrix(y_test, y_pred)
-print("Confusion Matrix:")
-print(result)
-result1 = classification_report(y_test, y_pred)
-print("Classification Report:",)
-print (result1)
-result2 = accuracy_score(y_test,y_pred)
-print("Accuracy:",result2)
+print("Confusion Matrix:", "\n",metrics.confusion_matrix(y_test, y_pred))
+
+# Model Accuracy: classification report
+print("Classification Report:",metrics.classification_report(y_test, y_pred))
+
+# Model Accuracy: how often is the classifier correct?
+print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
 export_graphviz(classifier_limited,out_file='tree.dot',
                 feature_names = features,

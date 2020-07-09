@@ -20,7 +20,7 @@ def annot_max(x, y, ax=None):
     bbox_props = dict(boxstyle="square,pad=0.3", fc="w", ec="k", lw=0.72)
     arrowprops=dict(arrowstyle="->",connectionstyle="angle,angleA=0,angleB=60")
     kw = dict(xycoords='data',textcoords="axes fraction",
-              arrowprops=arrowprops, bbox=bbox_props, ha="left", va="bottom")
+              arrowprops=arrowprops, bbox=bbox_props, ha="left", va="top")
     ax.annotate(text, xy=(xmax, ymax), xytext=(0.75,0.75), **kw)
 
 
