@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/naive_bayes_classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/random_forest_classification.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/trees.dot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/RF.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/accuracy_graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/accuracy_graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/healthcare.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/healthcare.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/svm_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/svm_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +58,7 @@
       <recent name="D:\J Projects\python-trial\.idea\python files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.random_forest_classification">
+  <component name="RunManager" selected="Python.decision_tree_classification">
     <configuration name="decision_tree_classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decision_tree_classification" />
         <item itemvalue="Python.random_forest_classification" />
         <item itemvalue="Python.naive_bayes_classifier" />
-        <item itemvalue="Python.decision_tree_classification" />
         <item itemvalue="Python.svm_classification" />
         <item itemvalue="Python.traintest" />
       </list>
@@ -412,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594265753807</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Removed some python files. Added Naive Bayes Classifier. Added more random forest libraries and models into random forest classifier.">
+      <created>1594637628725</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1594637628725</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -439,7 +439,8 @@
     <MESSAGE value="Moved count to each prediction code." />
     <MESSAGE value="Updated codes, added tree image generator and accuracy graph for codes that are comparing with validation and test data" />
     <MESSAGE value="Experimented on SVM" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experimented on SVM" />
+    <MESSAGE value="Removed some python files. Added Naive Bayes Classifier. Added more random forest libraries and models into random forest classifier." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed some python files. Added Naive Bayes Classifier. Added more random forest libraries and models into random forest classifier." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594635547580">
@@ -454,37 +455,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="123" key="#traintest/0.0.1920.1040@0.0.1920.1040" timestamp="1586336359701" />
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1594637456216">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1594637627784">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594637456216" />
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594637627784" />
     <state x="150" y="267" key="FileChooserDialogImpl" timestamp="1586335982336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="150" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586335982336" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1594637247866">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1594638207962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594637247866" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207962" />
     <state width="1877" height="218" key="GridCell.Tab.0.bottom/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1594637247866">
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1594638207961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594637247866" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
     <state width="1877" height="218" key="GridCell.Tab.0.center/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1594637247866">
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1594638207961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594637247866" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
     <state width="1877" height="218" key="GridCell.Tab.0.left/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1594637247866">
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1594638207961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594637247866" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
     <state width="1877" height="218" key="GridCell.Tab.0.right/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593683510256">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -506,10 +507,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="370" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586337395880" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594265815067">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594637783131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594265815067" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594637783131" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594610441865">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

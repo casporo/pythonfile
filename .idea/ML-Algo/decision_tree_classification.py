@@ -9,6 +9,7 @@ import matplotlib.image as pltimg
 from sklearn import tree
 from sklearn import metrics
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.tree import export_text
 from sklearn.model_selection import train_test_split
 
 path = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
@@ -25,13 +26,11 @@ features = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state= 1)
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
-dtree = DecisionTreeClassifier()
+dtree = DecisionTreeClassifier(criterion='gini', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction
 y_pred = dtree.predict(X_test)
-#print(y_pred)
-#print(y_test)
 
 #To obtain the accuracy score, confusion matrix and classification report
 print("Confusion Matrix:", "\n",metrics.confusion_matrix(y_test, y_pred))
@@ -42,13 +41,8 @@ print("Classification Report:","\n",metrics.classification_report(y_test, y_pred
 # Model Accuracy: how often is the classifier correct?
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
-"""
-#Predicting based on data given
-print(dtree.predict([[20, 50, 7, 1]]))
-print(dtree.predict([[40, 10, 3, 1]]))
-print("[1] means 'GO'")
-print("[0] means 'NO'")
-"""
+r = export_text(dtree, feature_names=features)
+print(r)
 
 from sklearn.tree import export_graphviz
 from sklearn.externals.six import StringIO

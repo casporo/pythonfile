@@ -42,7 +42,7 @@ y_test = dt.iloc[:, -1].values
 features = ['Knowledge_Context','Knowledge_Acceptance','Knowledge_Accuracy']
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
-dtree = DecisionTreeClassifier()
+dtree = DecisionTreeClassifier(criterion='gini', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction

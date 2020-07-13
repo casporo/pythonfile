@@ -41,7 +41,7 @@ class_label = ['Knowledge_Quality']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state= 1)
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
-dtree = DecisionTreeClassifier(max_depth=None,min_samples_split=2, random_state=0)
+dtree = DecisionTreeClassifier(criterion='gini', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction
