@@ -19,8 +19,6 @@ from scipy.signal import savgol_filter
 def annot_max(x, y, ax=None):
     xmax = x[np.argmax(y)]
     ymax = y.max()
-    #xmax = format(str(x[np.argmax(y)]))
-    #ymax = format(str(y.max()))
     text= "max={:.3f}".format(ymax)
     if not ax:
         ax=plt.gca()
@@ -32,21 +30,21 @@ def annot_max(x, y, ax=None):
 
 #Import the dataset
 df = pandas.read_csv(r"data_files\FINAL_DATASET.csv")
-dt = pandas.read_csv(r"data_files\FINAL_DATASET.csv")
+dt = pandas.read_csv(r"data_files\KM4U.csv")
 
 #To split the dataset into features and target variable
 X_train = df.iloc[:, :-1].values
 y_train = df.iloc[:, -1].values
 X_test = dt.iloc[:, :-1].values
 y_test = dt.iloc[:, -1].values
-features = ['Knowledge_Context','Knowledge_Acceptance','Knowledge_Accuracy']
+features = ['Context','Acceptance','Accuracy']
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
 dtree = DecisionTreeClassifier(criterion='gini', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
-dtree = dtree.fit(X_train,y_train)
+decision_tree = dtree.fit(X_train,y_train)
 
 #To make a prediction
-y_pred = dtree.predict(X_test)
+y_pred = decision_tree.predict(X_test)
 #np.set_printoptions(threshold=sys.maxsize)
 #print(y_pred)
 y_pred = y_pred.tolist()
@@ -97,5 +95,5 @@ plt.ylabel('Accuracy')
 
 annot_max(val_x, val_y)
 
-plt.savefig('decision_tree_accuracy.png')
+plt.savefig('images\decision_tree_accuracy.png')
 plt.show()

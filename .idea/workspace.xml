@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/decision_tree_accuracy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classify_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classify_final.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/images/dt_classify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classify_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classify_final.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +60,7 @@
       <recent name="D:\J Projects\python-trial\.idea\python files" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.decision_tree_classification">
+  <component name="RunManager" selected="Python.dt_classify_final">
     <configuration name="decision_tree_classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="naive_bayes_classifier" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dt_classification_cgks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +90,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/ML-Algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/CGKS Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/naive_bayes_classifier.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classification_cgks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dt_classify_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python-trial" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/CGKS Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classify_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svm_classification" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="rf_classify_final" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-trial" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,32 +153,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/ML-Algo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/CGKS Algorithm" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\J Projects\python-trial\.idea\ML-Algo\svm_classification.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="traintest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python-trial" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.idea/ML-Algo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/ML-Algo/traintest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classify_final.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dt_classify_final" />
+        <item itemvalue="Python.rf_classify_final" />
+        <item itemvalue="Python.dt_classification_cgks" />
         <item itemvalue="Python.decision_tree_classification" />
         <item itemvalue="Python.random_forest_classification" />
-        <item itemvalue="Python.naive_bayes_classifier" />
-        <item itemvalue="Python.svm_classification" />
-        <item itemvalue="Python.traintest" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594637628725</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Added more parameters for decision tree classifier">
+      <created>1594638270621</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1594638270621</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -440,53 +449,34 @@
     <MESSAGE value="Updated codes, added tree image generator and accuracy graph for codes that are comparing with validation and test data" />
     <MESSAGE value="Experimented on SVM" />
     <MESSAGE value="Removed some python files. Added Naive Bayes Classifier. Added more random forest libraries and models into random forest classifier." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed some python files. Added Naive Bayes Classifier. Added more random forest libraries and models into random forest classifier." />
+    <MESSAGE value="Added more parameters for decision tree classifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more parameters for decision tree classifier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594635547580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594635547580" />
-    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586145229014">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1595232409630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586145229014" />
-    <state x="679" y="123" key="#traintest" timestamp="1586336359701">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595232409630" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1595232369146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="679" y="123" key="#traintest/0.0.1920.1040@0.0.1920.1040" timestamp="1586336359701" />
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1594637627784">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595232369146" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1595232369146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594637627784" />
-    <state x="150" y="267" key="FileChooserDialogImpl" timestamp="1586335982336">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595232369146" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1595232369146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="150" y="267" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586335982336" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1594638207962">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595232369146" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1595232369146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207962" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1594638207961">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1594638207961">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1594638207961">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586498625051" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594638207961" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right/1920.65.1920.1040/0.0.1920.1160@1920.65.1920.1040" timestamp="1586499104241" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595232369146" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1593683510256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -503,23 +493,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593683510256" />
-    <state x="370" y="178" key="SettingsEditor" timestamp="1586337395880">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595232397776">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="370" y="178" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586337395880" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1594637783131">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595232397776" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1595226548835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594637783131" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1594610441865">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595226548835" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595232393076">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1586490108613" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594610441865" />
-    <state x="687" y="311" key="git4idea.merge.GitPullDialog" timestamp="1586331180159">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="687" y="311" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586331180159" />
+    <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595232393076" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1589159056421">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
