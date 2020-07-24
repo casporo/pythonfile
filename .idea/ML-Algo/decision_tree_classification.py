@@ -3,8 +3,6 @@ import numpy as np
 import sys
 import graphviz
 import pydotplus
-import matplotlib.pyplot as plt
-import matplotlib.image as pltimg
 
 from sklearn import tree
 from sklearn import metrics
@@ -18,6 +16,9 @@ headernames = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Cl
 
 dataset = pd.read_csv(path, names = headernames)
 
+d = {'Iris-setosa': 0, 'Iris-versicolor': 1, 'Iris-virginica': 2}
+dataset['Class'] = dataset['Class'].map(d)
+
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 4].values
 features = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width']
@@ -26,7 +27,7 @@ features = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state= 1)
 
 #train the model with the help of DecisionTreeClassifier class of sklearn
-dtree = DecisionTreeClassifier(criterion='gini', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
+dtree = DecisionTreeClassifier(criterion='entropy', splitter='best', max_depth=20, min_samples_split=2, min_samples_leaf=1, max_features='auto', random_state=0)
 dtree = dtree.fit(X_train,y_train)
 
 #To make a prediction

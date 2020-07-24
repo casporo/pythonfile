@@ -4,7 +4,7 @@ from sklearn import datasets
 from sklearn import metrics
 
 #Load dataset
-dataset = datasets.load_iris()
+dataset = datasets.load_diabetes()
 
 # Import train_test_split function
 from sklearn.model_selection import train_test_split
