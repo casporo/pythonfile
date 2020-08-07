@@ -1,1 +1,30 @@
-Nothing to see here
+General Introduction:
+Welcome to my GitHub repository. To summarise, this repository contains machine learning models that I have explored and used throughout my research work.
+
+----- Machine Learning Models -----
+In this repository, I have included the following machine learning algorithms. The algorithms are located in ML-Algo folder.
+1) Artificial Neural Network (classified as neuralnetwork.py)
+2) Decision Tree (classified as decision_tree_classification.py)
+2) Linear Regression (classified as linear_regression.py)
+3) Multiple Regression (classified as multipleregression.py)
+4) Naive Bayes (classified as naive_bayes.py)
+5) Polynomial Regression (classified as polynomialregression.py)
+6) Random Forest (classified as randomforest.py)
+7) Support Vector Machine (classified as svm_classification.py)
+Sidenote: When running decision tree and random forest, you will notice a few images being generated. These images are to show how the trees came about with the solution / reading.
+
+---- Folder Architecture ----
+The repository is divided into the following folders
+1) CGKS Algorithms - My Masters work involving machine learning
+2) ML-Algo -  Machine learning models that I have explored
+3) Plot Files - Python Plot Files
+
+---- How to Run the Machine Learning Models  ----
+1) Select a machine learning model
+2) Right click and run the file.
+3) If needed
+
+Additional Notes:
+1) Currently, the machine learning models are all classification-based models.
+2) Python configuration is required for your IDE.
+3) Python libraries require installation through terminal.

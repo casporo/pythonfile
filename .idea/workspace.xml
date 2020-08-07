@@ -2,33 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/Dataset_Findings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/Entropy.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/Gini.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_files/KM4U.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/data_findings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/images/ rf_classify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/images/dt_classify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/line_graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/plot_visualiser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/plot_visualiser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/trees.dot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/bar_chart.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_accuracy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/forest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/plot_visualiser.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ML-Algo/plot_visualiser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/count_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/count_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classify_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/dt_classify_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/fig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/fig1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/images/decisiontree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/images/oforest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classify_final.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CGKS Algorithm/rf_classify_final.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decision_tree_classification.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/decisiontree.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/svm_classification.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML-Algo/svm_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/RF_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plot Files/RF_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/bar_chart.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plot Files/bar_chart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/count_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plot Files/count_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/plot_visualiser.png" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plot Files/plot_visualiser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ML-Algo/plot_visualiser.py" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Plot Files/plot_visualiser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-trials/arrays.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-trials/arraytest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-trials/comparison.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python-trials/test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,15 +58,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\J Projects\python-trial\.idea\Plot Files" />
+      <recent name="D:\J Projects\python-trial\.idea" />
       <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
       <recent name="D:\J Projects\python-trial\.idea\ML-Algo" />
       <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm\" />
-      <recent name="D:\J Projects\python-trial\.idea\ML-Algo\" />
-      <recent name="D:\J Projects\python-trial\.idea\ML-Algo\data_files" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
     </key>
   </component>
   <component name="RunManager" selected="Python.line_graph (1)">
@@ -453,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595232410697</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Code update">
+      <created>1595584461648</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1595584461649</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -490,50 +481,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1594635547580" />
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1595232409630">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2" timestamp="1595584460538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595232409630" />
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom" timestamp="1595576622012">
+    <state x="575" y="150" width="778" height="806" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595584460538" />
+    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1596525345177">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595576622012" />
-    <state width="1877" height="365" key="GridCell.Tab.0.center" timestamp="1595576622012">
+    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596525345177" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595576622012" />
-    <state width="1877" height="365" key="GridCell.Tab.0.left" timestamp="1595576622012">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1595586531134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595576622012" />
-    <state width="1877" height="365" key="GridCell.Tab.0.right" timestamp="1595576622012">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531134" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1595586531134">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="365" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595576622012" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595569102515">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531134" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595569102515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1595569102515">
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595569102515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1595569102515">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595569102515" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1595569102515">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595569102515" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595584440664">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1595586531135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595584440664" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1595552327025">
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595586531135" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1595584470909">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595552327025" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595584470909" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1596525216418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596525216418" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595584435546">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
