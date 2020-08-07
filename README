@@ -22,7 +22,7 @@ The repository is divided into the following folders
 ---- How to Run the Machine Learning Models  ----
 1) Select a machine learning model
 2) Right click and run the file.
-3) If needed
+3) If needed, update the sample data to your own. 
 
 Additional Notes:
 1) Currently, the machine learning models are all classification-based models.
