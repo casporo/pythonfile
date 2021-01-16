@@ -61,11 +61,11 @@ print("Classification Report:","\n",metrics.classification_report(y_test, y_pred
 # Model Accuracy: how often is the classifier correct?
 print("Accuracy:",metrics.accuracy_score(y_test, y_pred))
 
-export_graphviz(classifier_limited,out_file='trees.dot',
+export_graphviz(classifier_limited, out_file='trees.dot',
                 feature_names = features,
                 rounded = True, proportion = False,
                 precision = 4, filled = True)
 from subprocess import call
 call(['dot', '-Tpng', 'trees.dot', '-o', 'forest.png', '-Gdpi=600'])
 from IPython.display import Image
-Image(filename = 'forest.png')
+Image(filename ='forest.png')

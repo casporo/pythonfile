@@ -3,7 +3,7 @@ from sklearn import linear_model
 
 #Multiple regression is like linear regression, but with more than one independent value, meaning that we try to predict a value based on two or more variables.
 
-df = pandas.read_csv("data_files\cars.csv")
+df = pandas.read_csv("../data_files/cars.csv")
 
 #Then make a list of the independent values and call this variable X.
 # Put the dependent values in a variable called y.
