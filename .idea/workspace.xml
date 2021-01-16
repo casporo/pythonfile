@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1fb419b9-1270-4db4-b819-b55da2906634" name="Default Changelist" comment="Re-structured ML algo directory to its individual classification">
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,15 +48,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projects\.idea\ML-Algo\Classification" />
       <recent name="D:\J Projects\python-trial\.idea\Plot Files" />
       <recent name="D:\J Projects\python-trial\.idea" />
       <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
       <recent name="D:\J Projects\python-trial\.idea\ML-Algo" />
-      <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm\" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\J Projects\python-trial\.idea\CGKS Algorithm" />
     </key>
   </component>
   <component name="RunManager" selected="Python.naive_bayes_classifier">
@@ -439,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596776015152</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Re-structured ML algo directory to its individual classification">
+      <created>1610763660422</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610763660422</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -456,7 +462,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Python Test Files" />
     <MESSAGE value="Added more weights, tinkered around with feedforward and backpropagation" />
     <MESSAGE value="Added more ML algorithms and python libraries. &#10;&#10;Regression Algorithms included" />
     <MESSAGE value="Added Decision Tree algorithm + sample data. &#10;Modified slightly Neural Network algo." />
@@ -481,6 +486,7 @@
     <MESSAGE value="Added more parameters for decision tree classifier" />
     <MESSAGE value="Code update" />
     <MESSAGE value="Created ReadMe file and removed / moved python files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created ReadMe file and removed / moved python files" />
+    <MESSAGE value="Re-structured ML algo directory to its individual classification" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-structured ML algo directory to its individual classification" />
   </component>
 </project>

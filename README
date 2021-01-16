@@ -2,7 +2,9 @@ General Introduction:
 Welcome to my GitHub repository. To summarise, this repository contains machine learning models that I have explored and used throughout my research work.
 
 ----- Machine Learning Models -----
-In this repository, I have included the following machine learning algorithms. The algorithms are located in ML-Algo folder.
+In this repository, I have included the following machine learning algorithms. The algorithms are located in ML-Algo folder
+
+Classification Folder
 1) Artificial Neural Network (classified as neuralnetwork.py)
 2) Decision Tree (classified as decision_tree_classification.py)
 2) Linear Regression (classified as linear_regression.py)
@@ -16,7 +18,11 @@ Sidenote: When running decision tree and random forest, you will notice a few im
 ---- Folder Architecture ----
 The repository is divided into the following folders
 1) CGKS Algorithms - My Masters work involving machine learning
-2) ML-Algo -  Machine learning models that I have explored
+2) ML-Algo -  Machine learning models that I have explored, it is divided to the following:
+- Regression (Regression algorithms)
+- Classification (Classification algorithms)
+- Clustering (Clustering algorithms)
+- Deep Learning (AI + Reinforcement learning)
 3) Plot Files - Python Plot Files
 
 ---- How to Run the Machine Learning Models  ----
@@ -25,6 +31,7 @@ The repository is divided into the following folders
 3) If needed, update the sample data to your own. 
 
 Additional Notes:
-1) Currently, the machine learning models are all classification-based models.
+1) Python must be installed in your local machine (Python 2.XX or Python 3.XX, preferably the latter). Installing Conda is optional
 2) Python configuration is required for your IDE.
-3) Python libraries require installation through terminal.
+3) Python libraries require installation through terminal. Installation guide:
+Windows - To install the python libraries, type pip install <library name>
